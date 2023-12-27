@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/loyalty/*"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "loyalty.json"
+  }
+}

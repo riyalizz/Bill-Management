@@ -81,8 +81,9 @@ public class CustomerController
         return customers;
     }
 
-    int[] abc() {
-            return null;
+    int calculate(int a, int b)
+    {
+        return a + b;
     }
 
 }

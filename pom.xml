@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learn</groupId>
-	<artifactId>electricitybillmanagent</artifactId>
+	<artifactId>Bill-Management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>electricitybillmanagent</name>
 	<description>Demo project for Spring Boot</description>
@@ -55,6 +55,10 @@
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
 			<version>LATEST</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
 

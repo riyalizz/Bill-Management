@@ -19,7 +19,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run 'mvn clean compile test' using the Maven tool
-                docker build -t bm:3.0 .
+                sh 'docker build -t bm:3.0 .'
             }
         }
     }

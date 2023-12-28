@@ -9,17 +9,17 @@ pipeline {
             }
         }
 
-        stage('Build') {
-            steps {
-                // Run 'mvn clean compile test' using the Maven tool
-                sh 'docker --version'
-            }
-        }
-
         stage('Test') {
             steps {
                 // Run 'mvn clean compile test' using the Maven tool
-                sh 'mvn clean compile test'
+                sh 'docker image'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Run 'mvn clean compile test' using the Maven tool
+                docker build -t bm:3.0 .
             }
         }
     }

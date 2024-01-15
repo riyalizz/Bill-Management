@@ -14,6 +14,7 @@ pipeline {
             steps {
                 // Checkout your source code from a Git repository
                // checkout scm
+                echo 'run unit tests'
             }
         }
 
@@ -21,6 +22,7 @@ pipeline {
             steps {
                 // Checkout your source code from a Git repository
                 //checkout scm
+                echo 'run automation tests'
             }
         }
 

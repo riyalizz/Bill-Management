@@ -38,7 +38,7 @@ pipeline {
             }
             steps {
                 // Run 'mvn clean compile test' using the Maven tool
-                bat  "docker run -p 8083:8083  1aeaccdf0bfb6a6c4edadfa07cc42ee9a2b74565102c8a7ab0f7de7a5c3543fe'
+                bat  "docker run -p 8083:8083  1e00734507c2"
             }
         }
     }
